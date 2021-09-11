@@ -96,5 +96,19 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
   },
 
-  plugins: [],
+  plugins: [
+    [
+      "@vuepress/plugin-search",
+      {
+        locales: {
+          "/": {
+            placeholder: "搜索",
+          },
+          "/en/": {
+            placeholder: "Search",
+          },
+        },
+      },
+    ],
+  ],
 });

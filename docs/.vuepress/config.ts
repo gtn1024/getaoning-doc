@@ -15,7 +15,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     "/": {
       lang: "zh-CN",
-      title: "Taoning 知识库",
+      title: "Taoning 的知识库",
       description: "一些教程",
     },
   },

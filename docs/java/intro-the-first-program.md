@@ -55,7 +55,7 @@ public static void main(String[] args){
 
 ## Java 运行机制
 
-Java 源代码本质上是一个纯文本文件，我们通过`javac`命令将源代码编译成**字节码**文件，再通过`java`命令执行该字节码文件。
+Java 源代码本质上是一个纯文本文件，我们通过`javac`命令将源代码编译成[字节码](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E7%A0%81)文件，再通过`java`命令执行该字节码文件。
 
 大概的运行机制如下图所示：
 

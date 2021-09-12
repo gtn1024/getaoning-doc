@@ -3,5 +3,5 @@ import type { NavbarConfig } from "@vuepress/theme-default";
 export const zh: NavbarConfig = [
   { text: "首页", link: "/" },
   { text: "Java", link: "/java/" },
-  { text: "Git", link: "/git/" },
+  // { text: "Git", link: "/git/" },
 ];

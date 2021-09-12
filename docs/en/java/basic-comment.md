@@ -47,19 +47,19 @@ In Java, **Document comment** is marked by `/** ... */`. Between `/**` and `*/` 
 Take [the following code](https://github.com/gtn1024/VousUtils/blob/main/src/main/java/com/vousutils/text/UtilsText.java#L8-L20) for example:
 
 ```java
-    /**
-     * Delete the text on the left.
-     *
-     * @param s      The text you want to operate
-     * @param length the length you want to delete
-     * @return String
-     * @author Taoning Ge
-     * @since 0.2.0
-     */
-    public static String deleteLeft(String s, int length) {
-        if (s == null || s.length() <= length) return "";
-        return s.substring(length);
-    }
+/**
+ * Delete the text on the left.
+ *
+ * @param s      The text you want to operate
+ * @param length the length you want to delete
+ * @return String
+ * @author Taoning Ge
+ * @since 0.2.0
+ */
+public static String deleteLeft(String s, int length) {
+    if (s == null || s.length() <= length) return "";
+    return s.substring(length);
+}
 ```
 
 When it is processed by `javadoc`, it will be like the picture below:

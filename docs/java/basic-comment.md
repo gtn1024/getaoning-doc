@@ -47,19 +47,19 @@ System.out.println("Hello World!"); // 在控制台上输出Hello World内容
 例如下面这一段代码（[链接](https://github.com/gtn1024/VousUtils/blob/main/src/main/java/com/vousutils/text/UtilsText.java#L8-L20)）：
 
 ```java
-    /**
-     * Delete the text on the left.
-     *
-     * @param s      The text you want to operate
-     * @param length the length you want to delete
-     * @return String
-     * @author Taoning Ge
-     * @since 0.2.0
-     */
-    public static String deleteLeft(String s, int length) {
-        if (s == null || s.length() <= length) return "";
-        return s.substring(length);
-    }
+/**
+ * Delete the text on the left.
+ *
+ * @param s      The text you want to operate
+ * @param length the length you want to delete
+ * @return String
+ * @author Taoning Ge
+ * @since 0.2.0
+ */
+public static String deleteLeft(String s, int length) {
+    if (s == null || s.length() <= length) return "";
+    return s.substring(length);
+}
 ```
 
 使用 Javadoc 工具处理后如下图所示（[链接](<https://javadoc.vousutils.com/0.2.2/com/vousutils/text/UtilsText.html#deleteLeft(java.lang.String,int)>)）：

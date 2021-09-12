@@ -4,6 +4,8 @@ import { navbar, sidebar } from "./configs";
 
 const isProd = process.env.NODE_ENV === "production";
 export default defineUserConfig<DefaultThemeOptions>({
+  head: [["link", { rel: "stylesheet", href: "/assets/css/style.css" }]],
+
   base: "/",
 
   // site-level locales config

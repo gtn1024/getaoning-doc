@@ -405,12 +405,33 @@
     vue "^3.2.3"
     vue-router "^4.0.10"
 
+"@vuepress/client@2.0.0-beta.26":
+  version "2.0.0-beta.26"
+  resolved "https://registry.nlark.com/@vuepress/client/download/@vuepress/client-2.0.0-beta.26.tgz#fad669dccfc01aa19afb1282b490fb53814009e9"
+  integrity sha1-+tZp3M/AGqGa+xKCtJD7U4FACek=
+  dependencies:
+    "@vuepress/shared" "2.0.0-beta.25"
+    vue "^3.2.3"
+    vue-router "^4.0.10"
+
 "@vuepress/core@2.0.0-beta.25":
   version "2.0.0-beta.25"
   resolved "https://registry.nlark.com/@vuepress/core/download/@vuepress/core-2.0.0-beta.25.tgz#54ab3bee7328de00691bba26cfe7ec03b571c323"
   integrity sha1-VKs77nMo3gBpG7omz+fsA7VxwyM=
   dependencies:
     "@vuepress/client" "2.0.0-beta.25"
+    "@vuepress/markdown" "2.0.0-beta.25"
+    "@vuepress/shared" "2.0.0-beta.25"
+    "@vuepress/utils" "2.0.0-beta.25"
+    gray-matter "^4.0.3"
+    toml "^3.0.0"
+
+"@vuepress/core@2.0.0-beta.26":
+  version "2.0.0-beta.26"
+  resolved "https://registry.nlark.com/@vuepress/core/download/@vuepress/core-2.0.0-beta.26.tgz#d7a8a1faa57961d745ae8aae2019721b1d11ef05"
+  integrity sha1-16ih+qV5YddFroquIBlyGx0R7wU=
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.26"
     "@vuepress/markdown" "2.0.0-beta.25"
     "@vuepress/shared" "2.0.0-beta.25"
     "@vuepress/utils" "2.0.0-beta.25"
@@ -472,6 +493,15 @@
   dependencies:
     "@vuepress/core" "2.0.0-beta.25"
     execa "^5.1.1"
+
+"@vuepress/plugin-google-analytics@^2.0.0-beta.26":
+  version "2.0.0-beta.26"
+  resolved "https://registry.nlark.com/@vuepress/plugin-google-analytics/download/@vuepress/plugin-google-analytics-2.0.0-beta.26.tgz#064d5b2e43f12002a59ee78061133e0e19edf953"
+  integrity sha1-Bk1bLkPxIAKlnueAYRM+Dhnt+VM=
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.26"
+    "@vuepress/core" "2.0.0-beta.26"
+    "@vuepress/utils" "2.0.0-beta.25"
 
 "@vuepress/plugin-medium-zoom@2.0.0-beta.25":
   version "2.0.0-beta.25"

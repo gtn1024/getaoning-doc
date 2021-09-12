@@ -6,6 +6,7 @@
   "author": "gtn1024 <gtn1024o@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.26",
     "@vuepress/plugin-prismjs": "^2.0.0-beta.25",
     "@vuepress/plugin-search": "^2.0.0-beta.25",
     "vuepress": "^2.0.0-beta.25",

@@ -112,5 +112,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
       },
     ],
+    [
+      "@vuepress/plugin-google-analytics",
+      {
+        id: "G-HY4WEMEFNT",
+      },
+    ],
   ],
 });

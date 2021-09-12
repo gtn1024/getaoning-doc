@@ -4,4 +4,5 @@ export const zh: NavbarConfig = [
   { text: "首页", link: "/" },
   { text: "Java", link: "/java/" },
   // { text: "Git", link: "/git/" },
+  { text: "博客", link: "https://www.getaoning.com" },
 ];

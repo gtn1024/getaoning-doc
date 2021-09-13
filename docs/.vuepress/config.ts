@@ -35,8 +35,6 @@ export default defineUserConfig<DefaultThemeOptions>({
 
     docsDir: "docs",
 
-    contributors: false,
-
     // theme-level locales config
     locales: {
       /**

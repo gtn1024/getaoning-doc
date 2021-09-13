@@ -16,4 +16,10 @@ export const en: SidebarConfig = {
       children: ["basic-comment.md"],
     },
   ],
+  "/en/git/": [
+    {
+      text: "Basic",
+      children: ["basic-what-is-git.md"],
+    },
+  ],
 };

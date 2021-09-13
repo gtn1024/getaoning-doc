@@ -16,4 +16,10 @@ export const zh: SidebarConfig = {
       children: ["basic-comment.md"],
     },
   ],
+  "/git/": [
+    {
+      text: "基础",
+      children: ["basic-what-is-git.md"],
+    },
+  ],
 };

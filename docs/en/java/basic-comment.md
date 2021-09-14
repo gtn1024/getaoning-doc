@@ -66,6 +66,6 @@ When it is processed by `javadoc`, it will be like the picture below:
 
 [Here](<https://javadoc.vousutils.com/0.2.2/com/vousutils/text/UtilsText.html#deleteLeft(java.lang.String,int)>) is the link.
 
-![](./images/basic-comment/javadoc-demo.jpg)
+![Javadoc Demo](./images/basic-comment/javadoc-demo.jpg)
 
 If you are interested in **Document comment**, you can read the project: [GitHub](https://github.com/gtn1024/VousUtils) [Javadoc](https://javadoc.vousutils.com/0.2.2/index.html)

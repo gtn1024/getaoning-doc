@@ -64,6 +64,6 @@ public static String deleteLeft(String s, int length) {
 
 使用 Javadoc 工具处理后如下图所示（[链接](<https://javadoc.vousutils.com/0.2.2/com/vousutils/text/UtilsText.html#deleteLeft(java.lang.String,int)>)）：
 
-![](./images/basic-comment/javadoc-demo.jpg)
+![Javadoc Demo](./images/basic-comment/javadoc-demo.jpg)
 
 对于文档注释大家可以阅读该项目：[GitHub 代码链接](https://github.com/gtn1024/VousUtils) [Javadoc 链接](https://javadoc.vousutils.com/0.2.2/index.html)

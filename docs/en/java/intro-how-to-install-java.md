@@ -1,4 +1,4 @@
-# How to install Java
+# How to Install Java
 
 TBD
 

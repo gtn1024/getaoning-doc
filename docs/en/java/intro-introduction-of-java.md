@@ -38,7 +38,7 @@ There are 3 editions of Java:
 
 **Java Me** can be called **Java lite**. It was the edition for embedded devices.
 
-## Some jargons
+## Some Jargons
 
 Here are some of the names you'll hear when you're new to Java
 

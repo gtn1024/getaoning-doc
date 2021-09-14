@@ -1,6 +1,6 @@
-# The first program
+# The First Program
 
-## Type and run the code
+## Type and Run the Code
 
 First, launch one code editor(e.g. [Sublime](https://www.sublimetext.com/)), type the code below:
 
@@ -29,7 +29,7 @@ $ java Hello.java
 Hello, world!
 ```
 
-## Analyze the first program
+## Analyze the First Program
 
 In any Java program, you can find the following code:
 
@@ -53,7 +53,7 @@ The method `main` is the entry method of a Java program. `String[] args` means t
 
 In Java, every statement must end with a semicolon (`;`).
 
-## How Java works
+## How Java Works
 
 The source code of Java program is just a plain text file in essence. We use `javac` to compile the source code to [byte code](https://en.wikipedia.org/wiki/Bytecode), then we use `java` to launch the program (i.e. the byte code file).
 

@@ -24,8 +24,12 @@ export const zh: SidebarConfig = {
   ],
   "/frontend/": [
     {
-      text: "基础",
-      children: [],
+      text: "导论",
+      children: ["intro-introduction-of-frontend.md"],
+    },
+    {
+      text: "HTML",
+      children: ["html-introduction.md"],
     },
   ],
 };

@@ -12,7 +12,7 @@ export const zh: SidebarConfig = {
       ],
     },
     {
-      text: "基础入门",
+      text: "基础",
       children: ["basic-comment.md"],
     },
   ],
@@ -20,6 +20,12 @@ export const zh: SidebarConfig = {
     {
       text: "基础",
       children: ["basic-what-is-git.md"],
+    },
+  ],
+  "/frontend/": [
+    {
+      text: "基础",
+      children: [],
     },
   ],
 };

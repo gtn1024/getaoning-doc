@@ -49,3 +49,7 @@ Java 主要有 3 个版本：
 下图为这三者的关系：
 
 ![Java relationship](./images/intro-introduction-of-java/java-relationship.png)
+
+## 学习资源
+
+- [ByteLegend](https://bytelegend.com)

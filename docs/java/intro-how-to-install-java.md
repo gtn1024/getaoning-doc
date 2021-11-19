@@ -1,6 +1,6 @@
 # 如何安装 Java
 
-在 Java 世界中，有不同厂商提供的 JDK 可供使用。例如[OpenJDK](https://jdk.java.net/17/)、[Oracle JDK](https://www.oracle.com/java/technologies/downloads/)、[Azul Zulu JDK](https://www.azul.com/downloads/?package=jdk)、[Temurin（原 AdoptOpenJDK）](https://adoptium.net/)等等。他们的使用协议各不相同，[有些商业用途需要付费（如 Oracle JDK）](https://www.zhihu.com/question/300420668/answer/527669290)。
+在 Java 世界中，有不同厂商提供的 JDK 可供使用。例如[OpenJDK](https://jdk.java.net/17/)、[Oracle JDK](https://www.oracle.com/java/technologies/downloads/)、[Azul Zulu JDK](https://www.azul.com/downloads/?package=jdk)、[Temurin（原 AdoptOpenJDK）](https://adoptium.net/)等等。他们的使用协议各不相同，有些商业用途需要付费。
 
 作为开发人员，我们使用最多的则为[Oracle JDK](https://www.oracle.com/java/technologies/downloads/)，本文也以 Oracle JDK 安装作为演示。
 
